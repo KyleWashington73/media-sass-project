@@ -403,11 +403,11 @@ Portions of this content are ©1998–2022 by individual mozilla.org contributor
    grid-column-gap: 20px; 
 }
 
-** THE KEY to Overlapping Elements !!!!! 
+** THE KEY to Overlapping Elements !!!!! --> 12:20, 17:24
 .item-4  {
 .grid-area: 2 / 2 span 2 / span 2;
 }
 
-
+*z-index: 1;
 
 
