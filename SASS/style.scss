@@ -118,11 +118,12 @@ width: 45em;
 
 // Container 4 //
 .grid-container-4 {
-   height: 142.5vh;
+   height: 149.5vh;
    border: 10px solid green;
    display: grid;
    grid-template-columns: 600px 644px;
    grid-template-rows: 300px 400px 300px 300px;
+   grid-gap: 10px;
    margin: 0px;
    padding: 0px;
 }

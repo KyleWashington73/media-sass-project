@@ -392,8 +392,21 @@ Community Participation Guidelines
 Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
 Portions of this content are ©1998–2022 by individual mozilla.org contributors. Content available under a Creative Commons license.
 
+* Grid system, Container 4:
+.grid-container-4 {
+   height: 100vh; 
+   border: 10px solid green;
+   display: grid;
+   grid-template-rows: 200px 200px;
+   grid-template-columns;
+   grid-row-gap: 20px;
+   grid-column-gap: 20px; 
+}
 
-
+** THE KEY to Overlapping Elements !!!!! 
+.item-4  {
+.grid-area: 2 / 2 span 2 / span 2;
+}
 
 
 
