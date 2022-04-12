@@ -133,10 +133,14 @@ body {
 }
 
 .grid-container-4 {
-  height: 100vh;
+  height: 142.5vh;
   border: 10px solid green;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 600px 644px;
+      grid-template-columns: 600px 644px;
+  -ms-grid-rows: 300px 400px 300px 300px;
+      grid-template-rows: 300px 400px 300px 300px;
   margin: 0px;
   padding: 0px;
 }
